@@ -1,4 +1,4 @@
-runtime: nodejs18 # or a compatible version like nodejs14
+runtime: python27 # or a compatible version like nodejs14
 env: standard
 service: azfrontend
 handlers:
