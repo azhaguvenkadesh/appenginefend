@@ -1,4 +1,6 @@
-runtime: python27 # or a compatible version like nodejs14
+runtime: python27
+api_version: 1
+threadsafe: true
 env: standard
 service: azfrontend
 handlers:
