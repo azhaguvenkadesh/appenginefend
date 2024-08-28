@@ -1,4 +1,4 @@
-runtime: nodejs16 # or a compatible version like nodejs14
+runtime: nodejs18 # or a compatible version like nodejs14
 env: standard
 service: azfrontend
 handlers:
