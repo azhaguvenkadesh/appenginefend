@@ -8,7 +8,7 @@ import { Appointment } from '../model/appointment';
 })
 export class AppointmentService {
 
-  private apiUrl = 'https://8080-dbbfffafefccdac315761015bbbdceebfbeddcacone.premiumproject.examly.io';
+  private apiUrl = 'https://azbackend-dot-united-zenith-431805-h9.uc.r.appspot.com';
 
   constructor(private http: HttpClient) { }
 
