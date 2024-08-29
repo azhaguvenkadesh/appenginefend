@@ -1,0 +1,54 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #007bff; /* Primary color */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a.active {
+  background-color: #0056b3; /* Darker shade for active link */
+}
+
+nav ul li a:hover {
+  background-color: #0056b3; /* Hover effect */
+  color: #ffffff;
+}
+
+/* Container styling */
+.container {
+  padding: 20px;
+  max-width: 1200px; /* Adjust based on your preference */
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
