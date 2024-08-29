@@ -3,12 +3,12 @@ env: standard
 service: azfrontend
 handlers:
 - url: /
-  static_files: dist/angularapp/index.html
-  upload: dist/angularapp/index.html
+  static_files: angularapp/index.html
+  upload: angularapp/index.html
 
 - url: /(.*)
-  static_files: dist/angularapp/\1
-  upload: dist/angularapp/(.*)
+  static_files: angularapp/\1
+  upload: angularapp/(.*)
 
 # Optional: Set a default expiration time for static assets to improve performance.
 # default_expiration: "7d"
